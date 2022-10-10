@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #757575;
+  background-color: var(--background-color-white);
 }
 
 :root {
@@ -32,7 +33,6 @@ ul {
 
 /* header */
 .header {
-  background-color: var(--background-color-white);
 }
 .header-logo {
   font-family: "Raleway";
@@ -41,13 +41,14 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .header-logo1 {
-  color: var(--logo-color1);
+  color: var(--header-logo-color1);
 }
 .header-logo2 {
-  color: var(--logo-color2);
+  color: var(--header-logo-color2);
 }
 
 .header-studio {
@@ -92,10 +93,6 @@ ul {
 .header-tel:focus {
   color: var(--hover-focus);
 }
-.main-section-button:hover,
-.main-section-button:focus {
-  background-color: var(--hover-focus);
-}
 
 /* main section */
 .main-section {
@@ -112,16 +109,20 @@ ul {
 }
 .main-section-button {
   font-family: "Roboto", sans-serif;
-  background-color: var(--main-button-color);
+  background-color: var(--hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--background-color-white);
   cursor: pointer;
   font-size: 16px;
 }
 
+.main-section-button:hover,
+.main-section-button:focus {
+  background-color: var(--main-button-color);
+}
+
 /* main-products */
 .main-products {
-  background-color: var(--background-color);
 }
 .main-products-title {
   font-weight: 700;
@@ -139,7 +140,6 @@ ul {
 
 /* main work about */
 .main-workabout {
-  background-color: var(--background-color);
 }
 .main-workabout-title {
   font-weight: 700;
@@ -188,7 +188,6 @@ ul {
 /* main portfolio*/
 /* portfolio buttons */
 .portfolio {
-  background-color: var(--background-color);
 }
 
 .portfolio-button {
@@ -223,7 +222,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--text-color);
 }
-.main-porfolio-description {
+.main-portfolio-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.25;
@@ -242,6 +241,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-logo1 {
